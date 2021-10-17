@@ -1,0 +1,21 @@
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3rem;
+}
+.nav .links {
+    display: inline-block;
+    text-align: right;
+}
+.nav a {
+    margin-right: 1.5em;
+    font-size: 1.3em;
+    border-bottom: 2px transparent solid;
+}
+.nav a:hover {
+    border-bottom: 2px #fff solid;
+}
+.nav h3 {
+    font-size: 1.5em;
+    color: #d9534f;
+}

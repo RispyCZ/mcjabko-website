@@ -1,0 +1,96 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+    row-gap: 1em;
+    align-items: center;
+    padding-top: 3em;
+    height: 300px;
+}
+.header h1 {
+    color: #d9534f;
+    font-size: 5em;
+}
+.header h2 {
+    font-size: 3em;
+}
+.top {
+    text-align: center;
+    margin: 10em 0 1.5em;
+}
+.top h3 {
+    font-size: 2.2em;
+    color: #d9534f;
+}
+.cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2em;
+    align-items: baseline;
+}
+.cols h3 {
+    color: #d9534f;
+    font-size: 2em;
+    text-align:center;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #23272a;
+    border-radius: 20px;
+    height: 100%;
+
+}
+.col p {
+    margin: 1.5em 1em .3em;
+    font-size: 1.3em;
+}
+.icon {
+    margin: .3em 0 0;
+    font-size: 5em;
+}
+.list {
+    margin: .1em 0 1em;
+    list-style: none;
+}
+.list_item::before {
+    content: '⦿ ';
+    color: #d9534f;
+}
+.list_item {
+    font-size: 1.2em;
+}
+.discord_box {
+    margin: 7em 0 3em 0;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #5865F2;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+.discord_text h3 {
+    margin: 1em;
+    font-size: 2em;
+}
+.btn_box {
+    text-align: center;
+}
+.btn {
+    margin: 1em auto;
+    background-color: #ed1c24;
+    padding: 1em;
+    border-radius: 20px;
+    -webkit-transition: background-color 1000ms;
+    transition: background-color 1000ms;
+  }
+  
+.btn:hover {
+    background-color: #be0000;
+    -webkit-transition: background-color 1000ms;
+    transition: background-color 1000ms;
+}

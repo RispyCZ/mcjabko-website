@@ -1,0 +1,18 @@
+.footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1em;
+    text-align: center;
+    margin: 3em;
+}
+.footer p {
+    font-size: 1.2em;
+}
+.links a {
+    margin: 1em;
+    font-size: 1.2em;
+}
+.links a:hover{
+    color: #d9534f !important;
+}
