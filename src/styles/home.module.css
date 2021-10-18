@@ -5,35 +5,42 @@
     row-gap: 1em;
     align-items: center;
     padding-top: 3em;
-    height: 300px;
+    height: 30em;
 }
+
 .header h1 {
     color: #d9534f;
     font-size: 5em;
 }
+
 .header h2 {
     font-size: 3em;
     color: #F7CE68;
 }
+
 .top {
     text-align: center;
     margin: 10em 0 1.5em;
 }
+
 .top h3 {
     font-size: 2.2em;
     color: #d9534f;
 }
+
 .cols {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 2em;
     align-items: baseline;
 }
+
 .cols h3 {
     color: #d9534f;
     font-size: 2em;
-    text-align:center;
+    text-align: center;
 }
+
 .col {
     display: flex;
     flex-direction: column;
@@ -42,27 +49,33 @@
     background-color: #23272a;
     border-radius: 20px;
     height: 100%;
-
+    width: 100%;
 }
+
 .col p {
     margin: 1.5em 1em .3em;
     font-size: 1.3em;
 }
+
 .icon {
     margin: .3em 0 0;
     font-size: 5em;
 }
+
 .list {
     margin: .1em 0 1em;
     list-style: none;
 }
+
 .list_item::before {
     content: '⦿ ';
     color: #d9534f;
 }
+
 .list_item {
     font-size: 1.2em;
 }
+
 .discord_box {
     margin: 7em 0 3em 0;
     border-radius: 20px;
@@ -70,23 +83,27 @@
     grid-template-columns: 1fr 1fr;
     align-items: center;
     background-color: #5865F2;
-    height: 200px;
+    height: 10em;
     width: 100%;
     text-align: center;
 }
+
 .discord_text h3 {
     margin: 1em;
     font-size: 2em;
 }
+
 .discord_logo {
     width: 128px;
     height: 128px;
     display: block;
     margin: auto;
 }
+
 .btn_box {
     text-align: center;
 }
+
 .btn {
     margin: 1em auto;
     background-color: #ed1c24;
@@ -94,75 +111,98 @@
     border-radius: 20px;
     -webkit-transition: background-color 1000ms;
     transition: background-color 1000ms;
-  }
-  
+}
+
 .btn:hover {
     background-color: #be0000;
     -webkit-transition: background-color 1000ms;
     transition: background-color 1000ms;
 }
+
 .worlds_wrapper {
     background: url('/map.png') top center;
     background-attachment: fixed;
-    background-size:cover;
+    background-size: cover;
     background-color: #121212;
     background-blend-mode: soft-light;
-    padding: 0 1em;
 }
+
 /* Responsive */
-@media only screen and (max-width: 600px) {
-    .header{
+@media only screen and (max-width: 900px) {
+    .header {
         display: flex;
         flex-direction: column;
     }
+
     .header h1 {
         font-size: 3em;
     }
+
     .header h2 {
         font-size: 2em;
     }
+
     .top h3 {
         font-size: 1.5em;
     }
+
     .cols {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
+
     .col {
         border-radius: 0;
     }
+
     .list {
         margin: 1em;
     }
+
     .col h3 {
         font-size: 1.5em;
     }
+
     .col p {
         font-size: 1em;
     }
+
     .list_item {
         font-size: 1em;
     }
+
     .discord_text h3 {
-        font-size: 1.3em;
-        margin: .3em .3em;
+        font-size: 1.2em;
+        margin: 1em .3em;
     }
+
     .discord_box {
         justify-content: center;
         align-items: center;
         grid-auto-flow: column;
-        height: 100px;
+        height: 10em;
     }
+
     .discord_logo {
         width: 64px;
         height: 64px;
         display: block;
         margin: auto;
     }
+
     .btn {
         padding: 0.5em;
     }
+
     .icon {
         font-size: 3em;
+    }
+
+    .worlds_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
