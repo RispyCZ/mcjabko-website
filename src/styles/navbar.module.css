@@ -1,21 +1,39 @@
 .nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 3rem;
+    margin: 3em;
 }
 .nav .links {
     display: inline-block;
     text-align: right;
 }
-.nav a {
+.nav .links > a {
     margin-right: 1.5em;
     font-size: 1.3em;
     border-bottom: 2px transparent solid;
 }
-.nav a:hover {
+.nav .links > a:hover {
     border-bottom: 2px #fff solid;
+}
+.menu_btn {
+    display: none;
 }
 .nav h3 {
     font-size: 1.5em;
     color: #d9534f;
+}
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+    .nav .links {
+        display: none;
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 3em 1em;
+    }
+    .menu_btn {
+        display: block;
+    }
 }

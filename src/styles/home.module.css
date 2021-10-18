@@ -13,6 +13,7 @@
 }
 .header h2 {
     font-size: 3em;
+    color: #F7CE68;
 }
 .top {
     text-align: center;
@@ -77,6 +78,12 @@
     margin: 1em;
     font-size: 2em;
 }
+.discord_logo {
+    width: 128px;
+    height: 128px;
+    display: block;
+    margin: auto;
+}
 .btn_box {
     text-align: center;
 }
@@ -93,4 +100,63 @@
     background-color: #be0000;
     -webkit-transition: background-color 1000ms;
     transition: background-color 1000ms;
+}
+.worlds_wrapper {
+    background: url('/map.png') top center;
+    background-attachment: fixed;
+    background-size:cover;
+    background-color: #121212;
+    background-blend-mode: soft-light;
+    padding: 0 1em;
+}
+/* Responsive */
+@media only screen and (max-width: 600px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .header h1 {
+        font-size: 3em;
+    }
+    .header h2 {
+        font-size: 2em;
+    }
+    .top h3 {
+        font-size: 1.5em;
+    }
+    .cols {
+        display: flex;
+        flex-direction: column;
+    }
+    .col {
+        border-radius: 0;
+    }
+    .list {
+        margin: 1em;
+    }
+    .col p {
+        font-size: 1em;
+    }
+    .list_item {
+        font-size: 1em;
+    }
+    .discord_text h3 {
+        font-size: 1.3em;
+        margin: .5em .3em;
+    }
+    .discord_box {
+        /*grid-template-columns: 1.5fr .5fr;*/
+        justify-content: center;
+        align-items: center;
+        grid-auto-flow: column;
+    }
+    .discord_logo {
+        width: 64px;
+        height: 64px;
+        display: block;
+        margin: auto;
+    }
+    .btn {
+        padding: 0.5em;
+    }
 }

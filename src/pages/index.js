@@ -11,7 +11,7 @@ export default function Home() {
       <div className={styles.header}>
         <div>
           <h1>MCJabko.cz</h1>
-          <h2>Semi-Vanilla Minecraft Server</h2>
+          <h2>Vanilla Network</h2>
         </div>
         <img src="/apple.png" alt="" />
       </div>
@@ -24,7 +24,7 @@ export default function Home() {
         <div className={styles.col}>
           <span className={styles.icon}><GiServerRack /></span>
           <h3>Zázemní</h3>
-          <p>Všechny naše herní servey jsou provozováný na naších vlastních serverech v ČR dokážeme tak zajisit nejnižší odezvu!</p>
+          <p>Všechny naše herní servey jsou provozováný na naších vlastních serverech v ČR</p>
         </div>
         <div className={styles.col}>
           <span className={styles.icon}><FaUserSecret /></span>
@@ -39,45 +39,46 @@ export default function Home() {
       </div>
 
       { /* Worlds */}
-      <div className={styles.top}>
-        <h3>Vyber si svět, který ti bude sedět</h3>
+      <div className={styles.worlds_wrapper}>
+        <div className={styles.top}>
+          <h3>Vyber si svět, který ti bude sedět</h3>
+        </div>
+        <div className={styles.cols}>
+          <div className={styles.col}>
+            <span className={styles.icon}>🟢</span>
+            <h3>Zelený svět</h3>
+            <p>Charakteristika světa</p>
+            <ul className={styles.list}>
+              <li className={styles.list_item}>Semi-Vanilla</li>
+              <li className={styles.list_item}>Aktivní admin team</li>
+              <li className={styles.list_item}>Základní přikazy (/home,/tpa atd.)</li>
+              <li className={styles.list_item}>Neomezená mapa</li>
+            </ul>
+          </div>
+          <div className={styles.col}>
+            <span className={styles.icon}>🟣</span>
+            <h3>Fialový svět</h3>
+            <p>Charakteristika světa</p>
+            <ul className={styles.list}>
+              <li className={styles.list_item}>Semi-Vanilla</li>
+              <li className={styles.list_item}>Aktivní admin team</li>
+              <li className={styles.list_item}>Základní přikazy (/home,/tpa atd.)</li>
+              <li className={styles.list_item}>Neomezená mapa</li>
+            </ul>
+          </div>
+          <div className={styles.col}>
+            <span className={styles.icon}>🔴</span>
+            <h3>Červený svět</h3>
+            <p>Charakteristika světa</p>
+            <ul className={styles.list}>
+              <li className={styles.list_item}>Semi-Vanilla</li>
+              <li className={styles.list_item}>Aktivní admin team</li>
+              <li className={styles.list_item}>Základní přikazy (/home,/tpa atd.)</li>
+              <li className={styles.list_item}>Neomezená mapa</li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div className={styles.cols}>
-        <div className={styles.col}>
-          <span className={styles.icon}>🟢</span>
-          <h3>Zelený svět</h3>
-          <p>Charakteristika světa</p>
-          <ul className={styles.list}>
-            <li className={styles.list_item}>Semi-Vanilla</li>
-            <li className={styles.list_item}>Aktivní admin team</li>
-            <li className={styles.list_item}>Základní přikazy (/home,/tpa atd.)</li>
-            <li className={styles.list_item}>Neomezená mapa</li>
-          </ul>
-        </div>
-        <div className={styles.col}>
-          <span className={styles.icon}>🟣</span>
-          <h3>Fialový svět</h3>
-          <p>Charakteristika světa</p>
-          <ul className={styles.list}>
-            <li className={styles.list_item}>Semi-Vanilla</li>
-            <li className={styles.list_item}>Aktivní admin team</li>
-            <li className={styles.list_item}>Základní přikazy (/home,/tpa atd.)</li>
-            <li className={styles.list_item}>Neomezená mapa</li>
-          </ul>
-        </div>
-        <div className={styles.col}>
-          <span className={styles.icon}>🔴</span>
-          <h3>Červený svět</h3>
-          <p>Charakteristika světa</p>
-          <ul className={styles.list}>
-            <li className={styles.list_item}>Semi-Vanilla</li>
-            <li className={styles.list_item}>Aktivní admin team</li>
-            <li className={styles.list_item}>Základní přikazy (/home,/tpa atd.)</li>
-            <li className={styles.list_item}>Neomezená mapa</li>
-          </ul>
-        </div>
-      </div>
-
       {/* Discord */}
       <div className={styles.discord_box}>
         <div className={styles.discord_text}>
@@ -86,7 +87,7 @@ export default function Home() {
             <a role="button" aria-label="discord" href="https://discord.mcjabko.cz" className={styles.btn} target="_blank" rel="noreferrer">Připoj se</a>
           </div>
         </div>
-        <img src="/discord.png" width="128" alt="" />
+        <img src="/discord.svg" className={styles.discord_logo} alt="" />
       </div>
 
       {/* Sponzor */}
@@ -95,7 +96,7 @@ export default function Home() {
       </div>
       <div className={styles.cols}>
         <div>
-          <img src="/tennet.png" width="512" alt="" />
+          <img src="/tennet.png" alt="" />
         </div>
       </div>
     </Layout>
