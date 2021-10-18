@@ -22,7 +22,15 @@
     font-size: 1.5em;
     color: #d9534f;
 }
-
+.mobile_menu_show {
+    display: block;
+}
+.mobile_menu_hide {
+    display: none;
+}
+.mobile_menu {
+    display: none;
+}
 /* Responsive */
 @media only screen and (max-width: 600px) {
     .nav .links {
@@ -35,5 +43,38 @@
     }
     .menu_btn {
         display: block;
+        font-size: 1.7em;
+    }
+    .nav .mobile_links {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: #121212;
+        top: 5em;
+        right: 1em;
+    }
+    .nav .mobile_links > a {
+        margin-top: 1.5em;
+        font-size: 1.3em;
+        border-bottom: 2px transparent solid;
+    }
+    .nav .mobile_links > a:hover {
+        border-bottom: 2px #fff solid;
+        width: 100%;
+    }
+
+    .mobile_menu {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #121212;
+    }
+    .mobile_menu > a {
+        margin: 1.5em 1em;
+        font-size: 1.3em;
     }
 }

@@ -79,6 +79,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      
       {/* Discord */}
       <div className={styles.discord_box}>
         <div className={styles.discord_text}>

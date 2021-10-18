@@ -134,6 +134,9 @@
     .list {
         margin: 1em;
     }
+    .col h3 {
+        font-size: 1.5em;
+    }
     .col p {
         font-size: 1em;
     }
@@ -142,13 +145,13 @@
     }
     .discord_text h3 {
         font-size: 1.3em;
-        margin: .5em .3em;
+        margin: .3em .3em;
     }
     .discord_box {
-        /*grid-template-columns: 1.5fr .5fr;*/
         justify-content: center;
         align-items: center;
         grid-auto-flow: column;
+        height: 100px;
     }
     .discord_logo {
         width: 64px;
@@ -158,5 +161,8 @@
     }
     .btn {
         padding: 0.5em;
+    }
+    .icon {
+        font-size: 3em;
     }
 }
