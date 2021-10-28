@@ -1,0 +1,21 @@
+.wrapper {
+    width: 100%;
+    background-color: #23272a;
+    border-radius: 20px;
+    padding: 1em;
+    margin: .5em 0;
+    cursor: pointer;
+}
+.title_box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn {
+    font-size: 1em;
+    background: none;
+    color: #fff;
+    outline: none;
+    border: none;
+}

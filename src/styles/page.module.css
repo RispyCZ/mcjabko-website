@@ -1,0 +1,40 @@
+.top {
+    text-align: center;
+    margin: 5em 0 5em;
+}
+
+.top h1 {
+    font-size: 3em;
+    color: #d9534f;
+}
+.content_wrapper {
+    max-width: 1200px;
+    margin: auto;
+    line-height: 1.5em;
+    padding: 0 1em;
+}
+.content_wrapper h3 {
+    margin: 1.2em 0 .5em;
+}
+/* Crazy List */
+li::marker{
+    font-size: 1em;
+}
+ol {
+    list-style-position: inside;
+    counter-reset: item;
+    margin: 1em 0;
+}
+ol li ol {
+    margin: 0;
+}
+ol li {
+    counter-increment: item;
+}
+ol ol > li {
+    display: block;
+}
+ol ol > li::before {
+    content: counters(item, ".") " ";
+    margin-left: 0.5em;
+}

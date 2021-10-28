@@ -1,0 +1,27 @@
+.majitel,
+.spolumajitel {
+    background-color: #AA0000;
+    border-radius: 20px;
+    padding: .3em;
+}
+
+.admin,
+.hladmin {
+    background-color: #FF5555;
+    border-radius: 20px;
+    padding: .3em;
+}
+
+.technik,
+.builder {
+    background-color: #0000AA;
+    border-radius: 20px;
+    padding: .3em;
+}
+
+.support,
+.zksupport {
+    background-color: #00AA00;
+    border-radius: 20px;
+    padding: .3em;
+}

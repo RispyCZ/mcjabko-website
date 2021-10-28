@@ -15,27 +15,22 @@ const items = [
     {
         icon: <FaGavel />,
         name: 'Pravidla',
-        url: '/rules'
+        url: '/pravidla'
     },
     {
         icon: <FaInfoCircle/>,
         name: 'O nás',
-        url: '/about'
+        url: '/o-nas'
     },
     {
         icon: <FaQuestionCircle />,
         name: 'FAQ',
-        url: '/rules'
+        url: '/faq'
     },
-    {
-        icon: <FaUserSecret />,
-        name: 'Admin Team',
-        url: '/ateam'
-    },
-    {
+    /*{
         icon: <FaDonate />,
         name: 'Sponzor',
-        url: '/rules'
-    },
+        url: ''
+    },*/
 ]
 export default items

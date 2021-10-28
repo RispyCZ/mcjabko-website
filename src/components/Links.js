@@ -1,13 +1,18 @@
 import React from 'react'
-import * as styles from '../styles/navbar.module.css'
+import * as styles from '../styles/links.module.css'
 import { Link } from 'gatsby'
+import {Link as ScrollLink } from 'react-scroll'
+
+
 
 export default function Links({ items }) {
     return (
         <div className={styles.links}>
-        {items.map((item) => {
-            return <Link key={item.url} to={item.url}>{item.icon} {item.name}</Link>
-        })}
+            {items.map((item) => {
+                const {url, icon, name} = item
+                return <Link key={name} to={url}>{icon} {name}</Link>
+            })}
+            
         </div>
     )
 }

@@ -2,7 +2,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
-
+import favicon from '../../static/favicon.ico'
 const Seo = ({ description, lang, meta, title }) => {
   const { site } = useStaticQuery(
     graphql`
@@ -25,7 +25,10 @@ const Seo = ({ description, lang, meta, title }) => {
         lang,
       }}
       title={title}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+      titleTemplate={defaultTitle ? `%s • ${defaultTitle}` : null}
+      link={[
+        { rel: 'shortcut icon', type: 'image/ico', href: `${favicon}` }
+      ]}
       meta={[
         {
           name: `description`,

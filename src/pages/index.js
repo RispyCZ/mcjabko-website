@@ -4,82 +4,119 @@ import * as styles from '../styles/home.module.css'
 import { GiServerRack } from '@react-icons/all-files/gi/GiServerRack'
 import { GiRingedPlanet } from '@react-icons/all-files/gi/GiRingedPlanet'
 import { FaUserSecret } from '@react-icons/all-files/fa/FaUserSecret'
+import Seo from '../components/Seo'
+import ListServers from "../components/ListServers"
+import ListAdmins from "../components/ListAdmins"
+
 export default function Home() {
   return (
     <Layout>
+      <Seo lang="cs" title="Domů" />
       {/* Hero */}
-      <div className={styles.header}>
-        <div>
-          <h1>MCJabko.cz</h1>
-          <h2>Vanilla Network</h2>
+      <div className={styles.header_background}>
+        <div className={styles.wrapper_1200}>
+          <div className={styles.header}>
+            <div>
+              <h1>MCJabko.cz</h1>
+              <h2>Vanilla Network</h2>
+            </div>
+            <img src="/apple.png" alt="" />
+          </div>
         </div>
-        <img src="/apple.png" alt="" />
       </div>
 
       {/* Why us? */}
-      <div className={styles.top}>
-        <h3>Tři důvody proč vybrat zrovna náš server?</h3>
-      </div>
-      <div className={styles.cols}>
-        <div className={styles.col}>
-          <span className={styles.icon}><GiServerRack /></span>
-          <h3>Zázemní</h3>
-          <p>Všechny naše herní servey jsou provozováný na naších vlastních serverech v ČR</p>
+      <div className={styles.wrapper_1200}>
+        <div className={styles.top}>
+          <h3>Tři důvody proč vybrat zrovna náš server?</h3>
         </div>
-        <div className={styles.col}>
-          <span className={styles.icon}><FaUserSecret /></span>
-          <h3>Admin Team</h3>
-          <p>Admini rádi pomohou s řešením tvých problém ať už na serveru nebo na discordu</p>
-        </div>
-        <div className={styles.col}>
-          <span className={styles.icon}><GiRingedPlanet /></span>
-          <h3>Máš na výběr</h3>
-          <p>Ačkoliv nabízíme jen servery zaměřené na Vanillu můžeš si vybrat.</p>
+        <div className={styles.cols}>
+          <div className={styles.col}>
+            <span className={styles.icon}><GiServerRack /></span>
+            <h3>Zázemní</h3>
+            <p>Všechny naše herní servey jsou provozováný na naších vlastních serverech v ČR</p>
+          </div>
+          <div className={styles.col}>
+            <span className={styles.icon}><FaUserSecret /></span>
+            <h3>Admin Team</h3>
+            <p>Admini rádi pomohou s řešením tvých problém ať už na serveru nebo na discordu</p>
+          </div>
+          <div className={styles.col}>
+            <span className={styles.icon}><GiRingedPlanet /></span>
+            <h3>Máš na výběr</h3>
+            <p>Ačkoliv nabízíme jen servery zaměřené na Vanillu můžeš si vybrat.</p>
+          </div>
         </div>
       </div>
 
       { /* Worlds */}
-      <div className={styles.worlds_wrapper}>
-        <div className={styles.top}>
-          <h3>Vyber si svět, který ti bude sedět</h3>
-        </div>
-        <div className={styles.cols}>
-          <div className={styles.col}>
-            <span className={styles.icon}>🟢</span>
-            <h3>Zelený svět</h3>
-            <p>Charakteristika světa</p>
-            <ul className={styles.list}>
-              <li className={styles.list_item}>Semi-Vanilla</li>
-              <li className={styles.list_item}>Aktivní admin team</li>
-              <li className={styles.list_item}>Základní přikazy (/home,/tpa atd.)</li>
-              <li className={styles.list_item}>Neomezená mapa</li>
-            </ul>
+      <div className={styles.worlds_background}>
+        <div className={styles.wrapper_1200}>
+          <div className={styles.top}>
+            <h3>Vyber si svět, který ti bude sedět</h3>
           </div>
-          <div className={styles.col}>
-            <span className={styles.icon}>🟣</span>
-            <h3>Fialový svět</h3>
-            <p>Charakteristika světa</p>
-            <ul className={styles.list}>
-              <li className={styles.list_item}>Semi-Vanilla</li>
-              <li className={styles.list_item}>Aktivní admin team</li>
-              <li className={styles.list_item}>Základní přikazy (/home,/tpa atd.)</li>
-              <li className={styles.list_item}>Neomezená mapa</li>
-            </ul>
-          </div>
-          <div className={styles.col}>
-            <span className={styles.icon}>🔴</span>
-            <h3>Červený svět</h3>
-            <p>Charakteristika světa</p>
-            <ul className={styles.list}>
-              <li className={styles.list_item}>Semi-Vanilla</li>
-              <li className={styles.list_item}>Aktivní admin team</li>
-              <li className={styles.list_item}>Základní přikazy (/home,/tpa atd.)</li>
-              <li className={styles.list_item}>Neomezená mapa</li>
-            </ul>
+          <div className={styles.cols}>
+            <div className={styles.col}>
+              <span className={styles.icon}>🟢</span>
+              <h3>Zelený svět</h3>
+              <p>Charakteristika světa</p>
+              <ul className={styles.list}>
+                <li className={styles.list_item}>Semi-Vanilla</li>
+                <li className={styles.list_item}>Aktivní admin team</li>
+                <li className={styles.list_item}>Základní přikazy (/home,/tpa atd.)</li>
+                <li className={styles.list_item}>Neomezená mapa</li>
+              </ul>
+            </div>
+            <div className={styles.col}>
+              <span className={styles.icon}>🟣</span>
+              <h3>Fialový svět</h3>
+              <p>Charakteristika světa</p>
+              <ul className={styles.list}>
+                <li className={styles.list_item}>Semi-Vanilla</li>
+                <li className={styles.list_item}>Aktivní admin team</li>
+                <li className={styles.list_item}>Základní přikazy (/home,/tpa atd.)</li>
+                <li className={styles.list_item}>Neomezená mapa</li>
+              </ul>
+            </div>
+            <div className={styles.col}>
+              <span className={styles.icon}>🔴</span>
+              <h3>Červený svět</h3>
+              <p>Charakteristika světa</p>
+              <ul className={styles.list}>
+                <li className={styles.list_item}>Semi-Vanilla</li>
+                <li className={styles.list_item}>Aktivní admin team</li>
+                <li className={styles.list_item}>Základní přikazy (/home,/tpa atd.)</li>
+                <li className={styles.list_item}>Neomezená mapa</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-      
+
+      {/* ATeam */}
+      <div className={styles.wrapper_1200}>
+        <div className={styles.top}>
+          <h3>Náš Team</h3>
+          <h4>Tento tým bláznů se stará o hladký chod moderovaných serverů.</h4>
+        </div>
+        <div className={styles.admin_list_cols}>
+          <ListAdmins />
+        </div>
+      </div>
+
+      {/* Servers */}
+      <div className={styles.servers_background}>
+        <div className={styles.wrapper_1200}>
+          <div className={styles.top}>
+            <h3>Naše zázemní</h3>
+            <h4>Na těchno železech provozuje všechny servery! 💪</h4>
+          </div>
+          <div className={styles.cols}>
+            <ListServers />
+          </div>
+        </div>
+      </div>
+
       {/* Discord */}
       <div className={styles.discord_box}>
         <div className={styles.discord_text}>
@@ -91,13 +128,15 @@ export default function Home() {
         <img src="/discord.svg" className={styles.discord_logo} alt="" />
       </div>
 
-      {/* Sponzor */}
-      <div className={styles.top}>
-        <h3>Patneři projektu</h3>
-      </div>
-      <div className={styles.cols}>
-        <div>
-          <img src="/tennet.png" alt="" />
+      {/* Sponzors */}
+      <div className={styles.wrapper_1200}>
+        <div className={styles.top}>
+          <h3>Patneři projektu</h3>
+        </div>
+        <div className={styles.cols}>
+          <div>
+            <img src="/tennet.png" alt="" />
+          </div>
         </div>
       </div>
     </Layout>

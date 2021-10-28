@@ -1,5 +1,5 @@
 import React from 'react'
-import * as styles from '../styles/navbar.module.css'
+import * as styles from '../styles/mobile-menu.module.css'
 import { Link } from 'gatsby'
 
 export default function MobileMenu({ items }) {
