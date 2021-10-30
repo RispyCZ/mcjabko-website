@@ -71,11 +71,11 @@
 
 .icon {
     margin: .3em 0 0;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .list {
-    margin: .1em 1em .5em 0;
+    margin: 1em;
     list-style: none;
 }
 
@@ -212,14 +212,6 @@
 
     .col h3 {
         font-size: 1.5em;
-    }
-
-    .list_item {
-        font-size: 1em;
-    }
-
-    .icon {
-        font-size: 3em;
     }
 
     .worlds_background {

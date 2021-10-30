@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState} from 'react'
 import * as styles from '../styles/acordation.module.css'
 import { FaPlus } from '@react-icons/all-files/fa/FaPlus'
 import { FaMinus} from '@react-icons/all-files/fa/FaMinus'
+import { CSSTransition } from 'react-transition-group'
 export default function Acordation({ title, text }) {
     const [Active, setActive] = useState(false)
     const HandleClick = () => {
@@ -13,7 +14,8 @@ export default function Acordation({ title, text }) {
                 {title}
                 <button className={styles.btn}>{!Active ? <FaPlus/> : <FaMinus/>}</button>
             </div>
-            {Active ? <div>{text}</div> : ''}
+            
+            <CSSTransition in={Active} timeout={300} unmountOnExit classNames="pop"><div>{text}</div></CSSTransition>
         </div>
     )
 }

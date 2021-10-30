@@ -1,6 +1,7 @@
 import React from 'react'
 import * as styles from '../styles/layout.module.css'
 import '../styles/global.css'
+import '../styles/transitions.css'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import MobileMenu from './MobileMenu'

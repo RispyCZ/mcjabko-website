@@ -1,7 +1,8 @@
-import React from 'react'
+import React, {useState} from 'react'
 import * as styles from '../styles/list-admins.module.css'
 import { useStaticQuery, graphql } from "gatsby"
-import ShowRank from './ShowRank'
+
+import Admin from './Admin'
 
 export default function ListAdmins() {
     const admins = useStaticQuery(graphql`
@@ -15,16 +16,13 @@ export default function ListAdmins() {
       }
     }
   `)
+
     return (
         <>
             {admins.allStrapiAdmins.nodes.map((item) => {
-                const { Name, Rank } = item
+                const { Name, Description, Rank } = item
                 return (
-                    <div className={styles.col} key={Name}>
-                        <img src={"/admins/"+ Name + ".png"} alt="" />
-                        <h4>{Name}</h4>
-                        <ShowRank rank={Rank}/>
-                    </div>
+                    <Admin Name={Name} Desc={Description} Rank={Rank} />
                 )
             })}
         </>

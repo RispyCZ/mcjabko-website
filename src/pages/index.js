@@ -24,7 +24,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
       {/* Why us? */}
       <div className={styles.wrapper_1200}>
         <div className={styles.top}>
@@ -33,7 +32,7 @@ export default function Home() {
         <div className={styles.cols}>
           <div className={styles.col}>
             <span className={styles.icon}><GiServerRack /></span>
-            <h3>Zázemní</h3>
+            <h3>Zázemí</h3>
             <p>Všechny naše herní servey jsou provozováný na naších vlastních serverech v ČR</p>
           </div>
           <div className={styles.col}>
@@ -62,8 +61,8 @@ export default function Home() {
               <p>Charakteristika světa</p>
               <ul className={styles.list}>
                 <li className={styles.list_item}>Semi-Vanilla</li>
-                <li className={styles.list_item}>Aktivní admin team</li>
-                <li className={styles.list_item}>Základní přikazy (/home,/tpa atd.)</li>
+                <li className={styles.list_item}>Základní přikazy</li>
+                <li className={styles.list_item}>Wipe jen pokud je to nutné</li>
                 <li className={styles.list_item}>Neomezená mapa</li>
               </ul>
             </div>
@@ -73,8 +72,8 @@ export default function Home() {
               <p>Charakteristika světa</p>
               <ul className={styles.list}>
                 <li className={styles.list_item}>Semi-Vanilla</li>
-                <li className={styles.list_item}>Aktivní admin team</li>
-                <li className={styles.list_item}>Základní přikazy (/home,/tpa atd.)</li>
+                <li className={styles.list_item}>Základní přikazy</li>
+                <li className={styles.list_item}>Každých 6 měsíců wipe</li>
                 <li className={styles.list_item}>Neomezená mapa</li>
               </ul>
             </div>
@@ -83,10 +82,10 @@ export default function Home() {
               <h3>Červený svět</h3>
               <p>Charakteristika světa</p>
               <ul className={styles.list}>
-                <li className={styles.list_item}>Semi-Vanilla</li>
-                <li className={styles.list_item}>Aktivní admin team</li>
-                <li className={styles.list_item}>Základní přikazy (/home,/tpa atd.)</li>
-                <li className={styles.list_item}>Neomezená mapa</li>
+                <li className={styles.list_item}>Anarchy</li>
+                <li className={styles.list_item}>Žádné pluginy</li>
+                <li className={styles.list_item}>Žádný admin team</li>
+                <li className={styles.list_item}>Omezená mapa (20Kx20K)</li>
               </ul>
             </div>
           </div>
@@ -131,7 +130,7 @@ export default function Home() {
       {/* Sponzors */}
       <div className={styles.wrapper_1200}>
         <div className={styles.top}>
-          <h3>Patneři projektu</h3>
+          <h3>Partneři projektu</h3>
         </div>
         <div className={styles.cols}>
           <div>

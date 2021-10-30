@@ -6,11 +6,24 @@
     margin: .5em 0;
     cursor: pointer;
 }
+
 .title_box {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
+
+/*.text_box {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 500ms linear, visibility 0s linear;
+}
+
+.text-box_show {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 500ms linear, visibility 0s linear;
+}*/
 
 .btn {
     font-size: 1em;
