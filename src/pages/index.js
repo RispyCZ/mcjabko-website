@@ -7,6 +7,7 @@ import { FaUserSecret } from '@react-icons/all-files/fa/FaUserSecret'
 import Seo from '../components/Seo'
 import ListServers from "../components/ListServers"
 import ListAdmins from "../components/ListAdmins"
+import CopyBtn from "../components/CopyBtn"
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
             <div>
               <h1>MCJabko.cz</h1>
               <h2>Vanilla Network</h2>
+              <CopyBtn CopyText={"mc.mcjabko.cz"}>mc.mcjabko.cz</CopyBtn>
             </div>
             <img src="/apple.png" alt="" />
           </div>
@@ -121,7 +123,7 @@ export default function Home() {
         <div className={styles.discord_text}>
           <h3>Připoj se na náš discord server</h3>
           <div className={styles.btn_box}>
-            <a role="button" aria-label="discord" href="https://discord.mcjabko.cz" className={styles.btn} target="_blank" rel="noreferrer">Připoj se</a>
+            <a role="button" aria-label="discord" href="https://discord.mcjabko.cz" className={styles.btn} target="_blank" rel="noreferrer">Pozvánka zde</a>
           </div>
         </div>
         <img src="/discord.svg" className={styles.discord_logo} alt="" />

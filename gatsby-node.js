@@ -9,6 +9,7 @@ exports.createPages = async ({ graphql, actions }) => {
         nodes {
           Content
           Header
+          Subtitle
           Slug
         }
       }

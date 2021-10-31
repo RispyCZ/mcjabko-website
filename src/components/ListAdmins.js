@@ -1,7 +1,6 @@
-import React, {useState} from 'react'
-import * as styles from '../styles/list-admins.module.css'
+import React from 'react'
 import { useStaticQuery, graphql } from "gatsby"
-
+import { v4 as uuidv4 } from 'uuid';
 import Admin from './Admin'
 
 export default function ListAdmins() {
@@ -22,7 +21,7 @@ export default function ListAdmins() {
             {admins.allStrapiAdmins.nodes.map((item) => {
                 const { Name, Description, Rank } = item
                 return (
-                    <Admin Name={Name} Desc={Description} Rank={Rank} />
+                    <Admin key={uuidv4()} Name={Name} Desc={Description} Rank={Rank} />
                 )
             })}
         </>

@@ -11,6 +11,7 @@ export default function Page({ pageContext }) {
             <Seo lang="cs" title={page.Header} />
             <div className={styles.top}>
                 <h1>{page.Header}</h1>
+                <h2>{page.Subtitle}</h2>
             </div>
             <div className={styles.content_wrapper}>
                 <ReactMarkdown>{page.Content}</ReactMarkdown>

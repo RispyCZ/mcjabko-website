@@ -10,6 +10,7 @@ export default function faq() {
             <Seo lang="cs" title="FAQ" />
             <div className={styles.top}>
                 <h1>FAQ</h1>
+                <h2>Nevíš si s něčím rady? Tak tady možná najdeš odpověď, pokud ne, tak se nás neboj kontaktovat!</h2>
             </div>
             <div className={styles.faq_wrapper}>
                 <div className={styles.faqs}>

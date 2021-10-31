@@ -1,9 +1,6 @@
 import React from 'react'
 import * as styles from '../styles/links.module.css'
 import { Link } from 'gatsby'
-import {Link as ScrollLink } from 'react-scroll'
-
-
 
 export default function Links({ items }) {
     return (
@@ -12,7 +9,6 @@ export default function Links({ items }) {
                 const {url, icon, name} = item
                 return <Link key={name} to={url}>{icon} {name}</Link>
             })}
-            
         </div>
     )
 }

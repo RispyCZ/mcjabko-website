@@ -9,7 +9,7 @@ export default function Acordation({ title, text }) {
         setActive(Active ? false : true)
     }
     return (
-        <div className={styles.wrapper} onClick={HandleClick}>
+        <div role="button" tabIndex="-1" className={styles.wrapper} onClick={HandleClick} onKeyDown={HandleClick}>
             <div className={styles.title_box}>
                 {title}
                 <button className={styles.btn}>{!Active ? <FaPlus/> : <FaMinus/>}</button>

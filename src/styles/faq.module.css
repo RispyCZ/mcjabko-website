@@ -12,6 +12,9 @@
     font-size: 3em;
     color: #d9534f;
 }
+.top h2 {
+    font-size: 1.2em;
+}
 .faqs {
     display: flex;
     flex-direction: column;

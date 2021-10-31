@@ -1,6 +1,7 @@
 import React from 'react'
 import { useStaticQuery, graphql } from "gatsby"
 import Acordation from './Acordation'
+import { v4 as uuidv4 } from 'uuid'
 
 export default function ListFaqs() {
     const admins = useStaticQuery(graphql`
@@ -18,7 +19,7 @@ export default function ListFaqs() {
             {admins.allStrapiFaq.nodes.map((item) => {
                 const { Question, Answer } = item
                 return (
-                    <Acordation title={Question} text={Answer} />
+                    <Acordation key={uuidv4()} title={Question} text={Answer} />
                 )
             })}
         </>
