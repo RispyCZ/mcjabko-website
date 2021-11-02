@@ -6,15 +6,16 @@ import * as styles from '../styles/page.module.css'
 
 export default function Page({ pageContext }) {
     const { page } = pageContext
+    const { Header, Subtitle, Content } = page
     return (
         <Layout>
             <Seo lang="cs" title={page.Header} />
             <div className={styles.top}>
-                <h1>{page.Header}</h1>
-                <h2>{page.Subtitle}</h2>
+                <h1>{Header}</h1>
+                <h2>{Subtitle}</h2>
             </div>
             <div className={styles.content_wrapper}>
-                <ReactMarkdown>{page.Content}</ReactMarkdown>
+                <ReactMarkdown renders={{ image: <img alt="" /> }}>{Content}</ReactMarkdown>
             </div>
         </Layout>
     )

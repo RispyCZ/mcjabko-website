@@ -25,6 +25,7 @@
     "react-markdown": "^7.1.0",
     "react-scroll": "^1.8.4",
     "react-transition-group": "^4.4.2",
+    "rehype-react": "^7.0.3",
     "uuid": "^8.3.2"
   },
   "devDependencies": {

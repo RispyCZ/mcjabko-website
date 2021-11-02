@@ -155,7 +155,7 @@
 }
 
 /* Responsive */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
     .discord_text h3 {
         font-size: 1.2em;
         margin: 1em .3em;
