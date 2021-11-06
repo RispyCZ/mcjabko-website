@@ -7,7 +7,12 @@ export default function Links({ items }) {
         <div className={styles.links}>
             {items.map((item) => {
                 const {url, icon, name} = item
-                return <Link key={name} to={url}>{icon} {name}</Link>
+                if(url.startsWith('https://'))
+                {
+                    return <a key={name} href={url} target="_blank" rel="noreferrer">{icon} {name}</a>
+                } else {
+                    return <Link key={name} to={url}>{icon} {name}</Link>
+                }
             })}
         </div>
     )

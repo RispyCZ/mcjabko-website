@@ -15,7 +15,7 @@ export default function Page({ pageContext }) {
                 <h2>{Subtitle}</h2>
             </div>
             <div className={styles.content_wrapper}>
-                <ReactMarkdown renders={{ image: <img alt="" /> }}>{Content}</ReactMarkdown>
+                <ReactMarkdown>{Content}</ReactMarkdown>
             </div>
         </Layout>
     )

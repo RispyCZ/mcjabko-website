@@ -16,3 +16,7 @@
 .links a:hover{
     color: #d9534f !important;
 }
+.version {
+    font-size: .8em;
+    font-family: monospace;
+}

@@ -19,10 +19,6 @@
 .content_wrapper h3 {
     margin: 1.2em 0 .5em;
 }
-.content_wrapper img {
-    width: 256px;
-    height: 256px;
-}
 /* Crazy List */
 li::marker{
     font-size: 1em;
