@@ -2,6 +2,7 @@ import React from 'react'
 import { FaGavel } from '@react-icons/all-files/fa/FaGavel'
 import { FaInfoCircle } from '@react-icons/all-files/fa/FaInfoCircle'
 import { FaHome } from '@react-icons/all-files/fa/FaHome'
+import { FaDonate } from '@react-icons/all-files/fa/FaDonate'
 import { FaQuestionCircle } from '@react-icons/all-files/fa/FaQuestionCircle'
 import {GoListOrdered} from '@react-icons/all-files/go/GoListOrdered'
 const items = [
@@ -26,14 +27,15 @@ const items = [
         url: '/faq'
     },
     {
+        icon: <FaDonate />,
+        name: 'Sponzor',
+        url: '/donate'
+    },
+    {
         icon: <FaGavel/>,
         name: 'Banlist',
         url: 'https://banlist.mcjabko.cz'
-    }
-    /*{
-        icon: <FaDonate />,
-        name: 'Sponzor',
-        url: ''
-    },*/
+    },
+
 ]
 export default items
