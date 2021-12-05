@@ -21,7 +21,8 @@ export default function donate() {
                     <li>/wb-tento příkaz ti otevře craftingtable.</li>
                     <li>/pos-tento příkaz ti ukáže tvoje aktuální souřadnice</li>
                     <li>+5x /sethome - Možnost si nastavit home.</li>
-                    <li>/sit - Můžes si kdekoliv sednout.</li>
+                    <li>/sit - Můžeš si kdekoliv sednout.</li>
+                    <li>/glow - Nikde se nestratíš</li>
                     <li>Rezervovaný slot</li>
                     <li>Možnost psát barevně (chat, cedulky, knížky</li>
                     <li>Zlatý prefix v chatu a zlatý nick v tabu.</li>
