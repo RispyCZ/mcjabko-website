@@ -35,6 +35,18 @@
     color: #d9534f;
     font-weight: 900;
 }
+.section_top {
+    margin: 2em 0;
+    text-align: center;
+}
+.section {
+    text-align: center;
+    margin: .5em 0 3em;
+    font-size: 1.2em;
+}
+.text_center {
+    text-align: center;
+}
 @media only screen and (max-width: 600px) {
     .list {
         display: flex;
