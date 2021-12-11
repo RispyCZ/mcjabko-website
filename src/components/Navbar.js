@@ -7,7 +7,7 @@ import Links from './Links'
 export default function Navbar({ items }) {
     return (
         <div className={styles.nav}>
-            <Link to="/"><img src="/logo2020.svg" alt="" width="64" /></Link>
+            <Link to="/"><img src="/logo.png" alt="" width="64" /></Link>
             <Links items={items} />
         </div>
     )

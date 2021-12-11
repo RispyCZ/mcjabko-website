@@ -58,7 +58,7 @@ export default function Home() {
           </div>
           <div className={styles.cols}>
             <div className={styles.col}>
-              <span className={styles.icon}>🟢</span>
+              <img className={styles.icon} alt="" src="./green-globe.png" width="80" />
               <h3>Zelený svět</h3>
               <p>Charakteristika světa</p>
               <ul className={styles.list}>
@@ -69,7 +69,7 @@ export default function Home() {
               </ul>
             </div>
             <div className={styles.col}>
-              <span className={styles.icon}>🟣</span>
+            <img className={styles.icon} alt="" src="./purple-globe.png" width="80" />
               <h3>Fialový svět</h3>
               <p>Charakteristika světa</p>
               <ul className={styles.list}>
@@ -80,7 +80,7 @@ export default function Home() {
               </ul>
             </div>
             <div className={styles.col}>
-              <span className={styles.icon}>🔴</span>
+            <img className={styles.icon} alt="" src="./red-globe.png" width="80" />
               <h3>Červený svět</h3>
               <p>Charakteristika světa</p>
               <ul className={styles.list}>
