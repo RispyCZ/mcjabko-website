@@ -23,6 +23,6 @@ module.exports = {
   ],
   siteMetadata: {
     title: 'MCJabko.cz',
-    description: 'Official Website of MCJabko.cz'
+    description: 'MCJabko je síť Semi-Vanilla a Vanilla serverů již od roku 2017.'
   }
 }

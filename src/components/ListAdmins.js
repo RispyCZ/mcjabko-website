@@ -6,11 +6,12 @@ import Admin from './Admin'
 export default function ListAdmins() {
     const admins = useStaticQuery(graphql`
     {
-      allStrapiAdmins {
+      allStrapiAdmins(sort: {order: ASC, fields: Order}) {
         nodes {
             Name
             Description
             Rank
+            Order
           }
       }
     }

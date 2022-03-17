@@ -8,7 +8,7 @@
     height: 30em;
 }
 .header_background {
-    background: url('/header.png') top center;
+    background: url('https://cdn.mcjabko.cz/images/header.png') top center;
     background-attachment: fixed;
     background-size: cover;
     background-color: #23272a;
@@ -142,14 +142,14 @@
     padding: 0 1em;
 }
 .worlds_background {
-    background: url('/map.png') top center;
+    background: url('https://cdn.mcjabko.cz/images//map.png') top center;
     background-attachment: fixed;
     background-size: cover;
     background-color: #121212;
     background-blend-mode: soft-light;
 }
 .servers_background {
-    background: url('/servers.jpg') top center;
+    background: url('https://cdn.mcjabko.cz/images//servers.jpg') top center;
     background-attachment: fixed;
     background-size: cover;
     background-color: #23272a;

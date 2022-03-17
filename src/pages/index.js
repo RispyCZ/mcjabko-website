@@ -13,6 +13,7 @@ export default function Home() {
   return (
     <Layout>
       <Seo lang="cs" title="Domů" />
+
       {/* Hero */}
       <div className={styles.header_background}>
         <div className={styles.wrapper_1200}>
@@ -22,7 +23,7 @@ export default function Home() {
               <h2>Vanilla Network</h2>
               <CopyBtn CopyText={"mc.mcjabko.cz"}>mc.mcjabko.cz</CopyBtn>
             </div>
-            <img src="/apple.png" alt="" />
+            <img src="https://cdn.mcjabko.cz/images/apple.png" alt="" />
           </div>
         </div>
       </div>
@@ -58,7 +59,7 @@ export default function Home() {
           </div>
           <div className={styles.cols}>
             <div className={styles.col}>
-              <img className={styles.icon} alt="" src="./green-globe.png" width="80" />
+              <img className={styles.icon} alt="" src="https://cdn.mcjabko.cz/images/green-globe.png" width="80" />
               <h3>Zelený svět</h3>
               <p>Charakteristika světa</p>
               <ul className={styles.list}>
@@ -69,7 +70,7 @@ export default function Home() {
               </ul>
             </div>
             <div className={styles.col}>
-            <img className={styles.icon} alt="" src="./purple-globe.png" width="80" />
+              <img className={styles.icon} alt="" src="https://cdn.mcjabko.cz/images/purple-globe.png" width="80" />
               <h3>Fialový svět</h3>
               <p>Charakteristika světa</p>
               <ul className={styles.list}>
@@ -79,7 +80,7 @@ export default function Home() {
                 <li className={styles.list_item}>Neomezená mapa</li>
               </ul>
             </div>
-            <div className={styles.col}>
+            {/* <div className={styles.col}>
             <img className={styles.icon} alt="" src="./red-globe.png" width="80" />
               <h3>Červený svět</h3>
               <p>Charakteristika světa</p>
@@ -89,7 +90,7 @@ export default function Home() {
                 <li className={styles.list_item}>Žádný admin team</li>
                 <li className={styles.list_item}>Omezená mapa (20Kx20K)</li>
               </ul>
-            </div>
+          </div> */}
           </div>
         </div>
       </div>
