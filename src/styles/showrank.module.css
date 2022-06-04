@@ -13,7 +13,8 @@
 }
 
 .technik,
-.builder {
+.builder,
+.hlbuilder {
     background-color: #0000AA;
     border-radius: 20px;
     padding: .3em;
