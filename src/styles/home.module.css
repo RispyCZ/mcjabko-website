@@ -10,9 +10,6 @@
 .header_background {
     background: url('https://cdn.mcjabko.cz/images/header.png') top center;
     background-attachment: fixed;
-    background-size: cover;
-    background-color: #23272a;
-    background-blend-mode: soft-light;
     border-bottom-left-radius: 50% 20%;
     border-bottom-right-radius: 50% 20%;
 }
@@ -153,6 +150,10 @@
     background-size: cover;
     background-color: #23272a;
     background-blend-mode: soft-light;
+}
+
+.globe {
+    font-size: 8rem;
 }
 
 /* Responsive */

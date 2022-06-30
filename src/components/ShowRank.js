@@ -21,6 +21,8 @@ export default function Rank({rank}) {
              return <span className={styles.builder}>Hl. Builderka</span>    
         case 'builder':
             return <span className={styles.builder}>Builder</span>
+        case 'builderka':
+                return <span className={styles.builder}>Builderka</span>
         default:
             return <span></span>
     }

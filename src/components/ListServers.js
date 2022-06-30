@@ -1,27 +1,13 @@
 import React from 'react'
 import * as styles from '../styles/list-servers.module.css'
-import { useStaticQuery, graphql } from "gatsby"
 import { GiServerRack } from '@react-icons/all-files/gi/GiServerRack'
 import { v4 as uuidv4 } from 'uuid'
 
 export default function ListServers() {
-    const servers = useStaticQuery(graphql`
-    {
-      allStrapiServers {
-        nodes {
-          CPU
-          Disk
-          Location
-          Name
-          RAM
-          Usage
-        }
-      }
-    }
-  `)
+    const servers = {}
     return (
         <>
-            {servers.allStrapiServers.nodes.map((item) => {
+            {servers.map((item) => {
                 const { CPU, Disk, RAM, Location, Name, Usage } = item
                 return (
                     <div key={uuidv4()} className={styles.col}>

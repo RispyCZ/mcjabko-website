@@ -12,14 +12,6 @@ module.exports = {
   /* Your site config here */
   plugins: [
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-source-strapi`,
-      options: {
-        apiURL: `https://cms.mcjabko.cz`,
-        queryLimit: 1000, // Defaults to 100
-        collectionTypes: [`pages`, `admins`, `servers`, 'faq'],
-      },
-    },
   ],
   siteMetadata: {
     title: 'MCJabko.cz',
