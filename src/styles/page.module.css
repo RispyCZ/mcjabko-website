@@ -41,3 +41,13 @@ ol ol > li::before {
     content: counters(item, ".") " ";
     margin-left: 0.5em;
 }
+
+.faqs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 75%;
+    margin: auto;
+}

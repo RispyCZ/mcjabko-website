@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout'
 import ListFaqs from '../components/ListFaqs'
 import Seo from '../components/Seo'
-import * as styles from '../styles/faq.module.css'
+import * as styles from '../styles/page.module.css'
 
 export default function faq() {
     return (
