@@ -31,11 +31,6 @@ const admins = [
       Rank: "support"
     },
     {
-      Name: "GamecreeperCz",
-      Description: "",
-      Rank: "zksupport"
-    },
-    {
       Name: "MonsterBak",
       Description: "",
       Rank: "support"
@@ -44,6 +39,11 @@ const admins = [
       Name: "detonator69",
       Description: "",
       Rank: "support"
+    },
+    {
+      Name: "GamecreeperCz",
+      Description: "",
+      Rank: "zksupport"
     },
     {
       Name: "_Orinka_",
