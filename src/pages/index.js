@@ -27,6 +27,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      
       { /* Worlds */}
       <div className={styles.worlds_background}>
         <div className={styles.wrapper_1200}>

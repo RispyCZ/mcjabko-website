@@ -7,12 +7,14 @@
     padding-top: 3em;
     height: 30em;
 }
+
 .header_background {
     background: url('https://cdn.mcjabko.cz/images/header.png') top center;
     background-attachment: fixed;
     border-bottom-left-radius: 50% 20%;
     border-bottom-right-radius: 50% 20%;
 }
+
 .header h1 {
     color: #d9534f;
     font-size: 5em;
@@ -40,6 +42,7 @@
     row-gap: 1em;
     align-items: baseline;
 }
+
 .admin_list_cols {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -47,6 +50,7 @@
     row-gap: 2em;
     align-items: baseline;
 }
+
 .cols h3 {
     color: #d9534f;
     font-size: 2em;
@@ -68,7 +72,8 @@
     margin: 1.5em 1em .3em;
 }
 
-.icon {
+.icon,
+.globe {
     margin: .3em 0 0;
     font-size: 3em;
 }
@@ -132,11 +137,13 @@
     -webkit-transition: background-color 1000ms;
     transition: background-color 1000ms;
 }
+
 .wrapper_1200 {
     max-width: 1200px;
     margin: auto;
     padding: 0 1em;
 }
+
 .worlds_background {
     background: url('https://cdn.mcjabko.cz/images//map.png') top center;
     background-attachment: fixed;
@@ -144,16 +151,13 @@
     background-color: #121212;
     background-blend-mode: soft-light;
 }
+
 .servers_background {
     background: url('https://cdn.mcjabko.cz/images//servers.jpg') top center;
     background-attachment: fixed;
     background-size: cover;
     background-color: #23272a;
     background-blend-mode: soft-light;
-}
-
-.globe {
-    font-size: 8rem;
 }
 
 /* Responsive */
@@ -175,14 +179,17 @@
         display: block;
         margin: auto;
     }
+
     .btn {
         padding: .5em;
     }
 }
+
 @media only screen and (max-width: 600px) {
     .admin_list_cols {
         grid-template-columns: 1fr 1fr;
     }
+
     .header {
         display: flex;
         flex-direction: column;

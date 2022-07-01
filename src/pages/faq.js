@@ -12,7 +12,7 @@ export default function faq() {
                 <h1>FAQ</h1>
                 <h2>Nevíš si s něčím rady? Tak tady možná najdeš odpověď, pokud ne, tak se nás neboj kontaktovat!</h2>
             </div>
-            <div className={styles.faq_wrapper}>
+            <div className={styles.content_wrapper}>
                 <div className={styles.faqs}>
                     <ListFaqs/>
                 </div>
