@@ -21,6 +21,11 @@ const admins = [
       Rank: "hladmin"
     },
     {
+      Name: "mangovecc",
+      Description: "",
+      Rank: "admin"
+    },
+    {
       Name: "Modify",
       Description: "Ahoj jmenuji se Modify a již nějaký ten pátek se starám o Vaše hraní na tomto serveru. Nemusíte se bát kontaktovat mou osobu jak na MC, tak na Discordu rád Vám pomohu s jakýmkoliv problémem. Na závěr bych jen řekl, že mám rád férové jednání a férové lidi.",
       Rank: "support"
