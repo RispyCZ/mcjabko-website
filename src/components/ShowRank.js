@@ -8,7 +8,7 @@ export default function Rank({rank}) {
         case 'spolumajitel':
             return <span className={styles.spolumajitel}>Spolumajitel</span>
         case 'hladmin':
-            return <span className={styles.hladmin}>Hlavní admin</span>
+            return <span className={styles.hladmin}>Hl. Admin</span>
         case 'admin':
             return <span className={styles.admin}>Admin</span>
         case 'support':
