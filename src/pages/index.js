@@ -5,7 +5,7 @@ import { GiServerRack } from '@react-icons/all-files/gi/GiServerRack'
 import { GiRingedPlanet } from '@react-icons/all-files/gi/GiRingedPlanet'
 import { FaUserSecret } from '@react-icons/all-files/fa/FaUserSecret'
 import { IoMdGlobe } from '@react-icons/all-files/io/IoMdGlobe'
-import {GoGlobe} from '@react-icons/all-files/go/GoGlobe'
+import { GoGlobe } from '@react-icons/all-files/go/GoGlobe'
 import Seo from '../components/Seo'
 import CopyBtn from "../components/CopyBtn"
 import ListAdmins from "../components/ListAdmins"
@@ -19,7 +19,7 @@ export default function Home() {
       <div className={styles.header_background}>
         <div className={styles.wrapper_1200}>
           <div className={styles.header}>
-            <div style={{backgroundColor: '#ffffff1a', padding: '2rem', borderRadius: '20px', textAlign: 'center'}}>
+            <div style={{ backgroundColor: '#ffffff1a', padding: '2rem', borderRadius: '20px', textAlign: 'center' }}>
               <h1>MCJabko.cz</h1>
               <h2>Vanilla Network</h2>
               <CopyBtn CopyText={"mc.mcjabko.cz"}>mc.mcjabko.cz</CopyBtn>
@@ -28,7 +28,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      
+
       { /* Worlds */}
       <div className={styles.worlds_background}>
         <div className={styles.wrapper_1200}>
@@ -37,7 +37,7 @@ export default function Home() {
           </div>
           <div className={styles.cols}>
             <div className={styles.col}>
-              <GoGlobe className={styles.globe} style={{color: '#32CD32'}} />
+              <GoGlobe className={styles.globe} style={{ color: '#32CD32' }} />
               <h3>Zelený svět</h3>
               <p>Charakteristika světa</p>
               <ul className={styles.list}>
@@ -47,7 +47,7 @@ export default function Home() {
                 <li className={styles.list_item}>Neomezená mapa</li>
               </ul>
             </div>
-            <div className={styles.col}>
+            {/*  <div className={styles.col}>
               <GoGlobe className={styles.globe} style={{color: '#9c00e6'}} />
               <h3>Fialový svět</h3>
               <p>Charakteristika světa</p>
@@ -56,10 +56,10 @@ export default function Home() {
                 <li className={styles.list_item}>Základní přikazy</li>
                 <li className={styles.list_item}>Každých 6 měsíců wipe</li>
                 <li className={styles.list_item}>Neomezená mapa</li>
-              </ul>
-            </div>
+              </ul> 
+            </div> */}
             <div className={styles.col}>
-              <GoGlobe className={styles.globe} style={{color: '#1E90FF'}} />
+              <GoGlobe className={styles.globe} style={{ color: '#1E90FF' }} />
               <h3>Modrý svět</h3>
               <p>Charakteristika světa</p>
               <ul className={styles.list}>
@@ -69,21 +69,21 @@ export default function Home() {
                 <li className={styles.list_item}>Předgenerovaná 5kx5k</li>
               </ul>
             </div>
-            {/* <div className={styles.col}>
-            <img className={styles.icon} alt="" src="./red-globe.png" width="80" />
+            <div className={styles.col}>
+              <GoGlobe className={styles.globe} style={{ color: '#A52A2A' }} />
               <h3>Červený svět</h3>
               <p>Charakteristika světa</p>
               <ul className={styles.list}>
-                <li className={styles.list_item}>Anarchy</li>
-                <li className={styles.list_item}>Žádné pluginy</li>
-                <li className={styles.list_item}>Žádný admin team</li>
-                <li className={styles.list_item}>Omezená mapa (20Kx20K)</li>
+                <li className={styles.list_item}>LifeSteal</li>
+                <li className={styles.list_item}>Griefing povolen</li>
+                <li className={styles.list_item}>Použe ty nejnutnějí pluginy</li>
+                <li className={styles.list_item}>Omezená mapa (50Kx50K)</li>
               </ul>
-          </div> */}
+            </div>
           </div>
         </div>
       </div>
-      
+
       {/* Why us? */}
       <div className={styles.wrapper_1200}>
         <div className={styles.top}>
@@ -115,7 +115,7 @@ export default function Home() {
           <h4>Tento tým bláznů se stará o hladký chod moderovaných serverů.</h4>
         </div>
         <div className={styles.admin_list_cols}>
-          <ListAdmins/>
+          <ListAdmins />
         </div>
       </div>
 
