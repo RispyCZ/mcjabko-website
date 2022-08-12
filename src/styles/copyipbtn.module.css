@@ -1,0 +1,22 @@
+.btn {
+    margin: 1em auto;
+    background-color: transparent;
+    border: 2px solid #d9534f;
+    font-family: 'Georama', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    outline: none;
+    color: #fff;
+    padding: 1em;
+    display: block;
+    border-radius: 5px;
+    -webkit-transition: background-color 1000ms;
+    transition: background-color 1000ms;
+}
+
+.btn:hover {
+    background-color: #d9534f;
+    -webkit-transition: background-color 1000ms;
+    transition: background-color 1000ms;
+    cursor: pointer;
+}

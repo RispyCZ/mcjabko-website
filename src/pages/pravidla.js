@@ -13,8 +13,9 @@ const Rules = () => {
                     <h1>Pravidla</h1>
                     <h2>Pravidla jsou velice důležitá pro klidně hraní. Pokud je však porušíš trest tě nemine.</h2>
                 </div>
+
                 <div className={styles.content_wrapper}>
-                    <p>Jelikož chceme na našem serveru s vyjímkou Anarchy světa udržovat férovou a příjemnou hru všem hráčům, je důležité dodržovat závazná pravidla!</p>
+                    <p>Jelikož chceme na našem serveru udržovat férovou a příjemnou hru všem hráčům, je důležité dodržovat závazná pravidla!</p>
                     <h3>A. Obecná pravidla platící na všech světech MCJabko.cz, dále jen "server".</h3>
                     <ol>
                         <li>Obecná pravidla platí na anarchy světě pouze v rozsahu 1. - 2.1</li>
@@ -29,6 +30,7 @@ const Rules = () => {
                             <li>Každý uživatel má právo vlastnit jen a pouze jeden uživatelský účet vázaný na jeho IP adresu, výjimkou je sdílená domácnost s členem rodiny či duplicitní IP adresa v rámci poskytovatele internetu, v případě připojení jiného účtu na stejné IP adrese na které byl uložen ban je Admin team v případech, kdy je pravděpodobné že se jedná o obcházení banu, oprávněn uložit permanentní IP ban a uživatel musí doložit důkaz o opaku.</li>
                         </ol>
                     </ol>
+
                     <h3>B. Pravidla zeleného a fialového světa</h3>
                     <ol>
                         <li>Jakýkoliv pokyn člena Admin teamu (Majitel, Spolumajitel, Hlavní admin, Admin, Support či Zkušební support), musí být bezodkladně uposlechnut!</li>
@@ -62,7 +64,8 @@ const Rules = () => {
                         <ol>
                             <li>Pokud k takovéto dohodě dojde mezi, dvěma hráči a do souboje se připojí jiný hráč, popřípadě více hráčů, jsou hráči, kteří dohodu uzavřeli povinni dané hráče upozornit na danou skutečnost, a to i klidně zpětně, nejdéle však 30minut po skončení souboje.</li>
                             <li>Hráč, který nebyl zahrnut v dohodě má právo si vyžádat důkaz v podobě screenu konverzace.</li>
-                            <li>V takovém případě je hráč, nebo hráči, kteří nebyli původně zahrnuti v dohodě povinni vrátit účastníkům jejich věci, pokud tak neučiní jedná se o krádež! V opačném případě si může věci ponechat. #4. Pokud Hráč číslo 1, který byl domluven na souboji s hráčem číslo2, zautočí na kohokoliv jiného, napadený hráč nemusí brát dohodu v potaz, a má právo se bránit!#</li>
+                            <li>V takovém případě je hráč, nebo hráči, kteří nebyli původně zahrnuti v dohodě povinni vrátit účastníkům jejich věci, pokud tak neučiní jedná se o krádež! V opačném případě si může věci ponechat.</li>
+                            <li>Pokud Hráč číslo 1, který byl domluven na souboji s hráčem číslo2, zautočí na kohokoliv jiného, napadený hráč nemusí brát dohodu v potaz, a má právo se bránit!</li>
                         </ol>
                         <li>Každý hráč má nárok na plochu 300×300 blocků kolem jeho domu. Toto pásmo nesmí jiný hráč bez povolení narušit!</li>
                         <ol>
@@ -78,6 +81,7 @@ const Rules = () => {
                         <li>Zároveň je zakázáno tak činit v soukromých zprávách rozesílaných členům serverů MCJabko, to znamnená discord, TS3, minecraft či jakékoliv jiné servery spadající pod MCJabko.cz</li>
                         <li>Je zakázáno jakkoliv obcházet ban!</li>
                     </ol>
+
                     <h3>C. Pravidla modrého světa.</h3>
                     <ol>
                         <li>Griefing mimo Raid, je zakázán. 1.2 Raid lze uskutečnit jen pokud, je alespoň jeden z majitelů stavby přítomen. Zároveň musí majitel souhlasit s možností raidů v rámci jejich RP.</li>
@@ -86,6 +90,24 @@ const Rules = () => {
                         <li>Je zakázáno zabíjet hráče v okruhu 1000 bloků od spawnu!</li>
                         <li>Hráči mají možnost si vytvářet svá pravidla mimo zemí 1000 bloků od spawnu a vymáhat je i pod hrozbou zabití. 5.2 Tyto pravidla musí být však jasně poskytnuty ostatním hráčům.</li>
                     </ol>
+
+                    <h3>D. Pravidla červeného světa</h3>
+                    <ol>
+                        <li>Platí zde všechna pravidla z bodu B. až na následující vyjímky</li>
+                        <ol>
+                            <li>Griefing a zabijení hráčů pro získaní jejich věcí je povolen</li>
+                            <li>Hráč nemá práva na žádnou plochu kolem jeho domu</li>
+                        </ol>
+                        <li>Je zakázáno farmit srdíčka na svých alt účetech nebo ostatních hráčích</li>
+                        <ol>
+                            <li>Jako farmení lze považovat.</li>
+                            <ol>
+                                <li>Zabijení hráče ihned po jeho respawnu</li>
+                                <li>Zabijení hráče, který je AFK</li>
+                            </ol>
+                        </ol>
+                    </ol>
+
                     <h3>Pravidla PvP Arény</h3>
                     <ol>
                         <li>Je zakázáno používat Elytry, raketky, ender perly, chorus fruit, totem of undying a jakékoliv efekty uvnitř arény(to znamená i notch a golden apples)!</li>

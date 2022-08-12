@@ -11,6 +11,7 @@
     display: grid;
     grid-template-columns: 1fr .1fr;
     background-color: #23272a;
+    color: #fff;
     width: 75%;
     padding: 3em;
     border-radius: 20px;

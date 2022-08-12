@@ -62,7 +62,9 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: #23272a;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 22%, rgba(253,92,99,1) 92%);
+    color: #23272a;
     border-radius: 20px;
     height: 100%;
     width: 100%;
@@ -72,12 +74,17 @@
     margin: 1.5em 1em .3em;
 }
 
-.icon,
-.globe {
+.icon {
     margin: .3em 0 0;
     font-size: 3em;
 }
 
+.globe {
+    font-size: 5em;
+    background-color: #000;
+    border-radius: 50%;
+    margin: .2em;
+}
 .list {
     margin: 1em;
     list-style: none;

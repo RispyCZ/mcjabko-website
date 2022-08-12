@@ -1,6 +1,7 @@
 .majitel,
 .spolumajitel {
     background-color: #AA0000;
+    color: #fff;
     border-radius: 20px;
     padding: .3em;
 }
@@ -8,6 +9,7 @@
 .admin,
 .hladmin {
     background-color: #FF5555;
+    color: #fff;
     border-radius: 20px;
     padding: .3em;
 }
@@ -16,6 +18,7 @@
 .builder,
 .hlbuilder {
     background-color: #0000AA;
+    color: #fff;
     border-radius: 20px;
     padding: .3em;
 }
@@ -23,6 +26,7 @@
 .support,
 .zksupport {
     background-color: #00AA00;
+    color: #fff;
     border-radius: 20px;
     padding: .3em;
 }

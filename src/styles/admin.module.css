@@ -1,21 +1,25 @@
 .col {
+    padding: 1rem;
     text-align: center;
-    border: .1em #23272a solid;
-    transition: border 1000ms;
+    color: #23272a;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 22%, rgba(253,92,99,1) 92%); 
 }
+
 .col:hover {
-    border: .1em #f6f6f6 solid;
-    transition: border 1000ms;
     cursor: pointer;
 }
+
 .col h4 {
+    color: #000;
     margin: 1em 0;
 }
+
 .col > img {
     display: block;
     margin: auto;
-    border: .1em #23272a solid;
 }
+
 @media only screen and (max-width: 900px) {
     .col > img {
         width: 64px;

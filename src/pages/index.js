@@ -5,6 +5,7 @@ import { GiServerRack } from '@react-icons/all-files/gi/GiServerRack'
 import { GiRingedPlanet } from '@react-icons/all-files/gi/GiRingedPlanet'
 import { FaUserSecret } from '@react-icons/all-files/fa/FaUserSecret'
 import { IoMdGlobe } from '@react-icons/all-files/io/IoMdGlobe'
+import {GoGlobe} from '@react-icons/all-files/go/GoGlobe'
 import Seo from '../components/Seo'
 import CopyBtn from "../components/CopyBtn"
 import ListAdmins from "../components/ListAdmins"
@@ -36,7 +37,7 @@ export default function Home() {
           </div>
           <div className={styles.cols}>
             <div className={styles.col}>
-              <IoMdGlobe className={styles.globe} style={{color: '#32CD32'}} />
+              <GoGlobe className={styles.globe} style={{color: '#32CD32'}} />
               <h3>Zelený svět</h3>
               <p>Charakteristika světa</p>
               <ul className={styles.list}>
@@ -47,7 +48,7 @@ export default function Home() {
               </ul>
             </div>
             <div className={styles.col}>
-              <IoMdGlobe className={styles.globe} style={{color: '#9c00e6'}} />
+              <GoGlobe className={styles.globe} style={{color: '#9c00e6'}} />
               <h3>Fialový svět</h3>
               <p>Charakteristika světa</p>
               <ul className={styles.list}>
@@ -58,7 +59,7 @@ export default function Home() {
               </ul>
             </div>
             <div className={styles.col}>
-              <IoMdGlobe className={styles.globe} style={{color: '#1E90FF'}} />
+              <GoGlobe className={styles.globe} style={{color: '#1E90FF'}} />
               <h3>Modrý svět</h3>
               <p>Charakteristika světa</p>
               <ul className={styles.list}>
