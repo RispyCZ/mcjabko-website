@@ -93,17 +93,19 @@ const Rules = () => {
 
                     <h3>D. Pravidla červeného světa</h3>
                     <ol>
-                        <li>Platí zde všechna pravidla z bodu B. až na následující vyjímky</li>
+                        <li>Platí zde všechna pravidla z bodu B. až na následující vyjímky.</li>
+                        <li>Je zakázáno se odpojovat během souboje.</li>
                         <ol>
-                            <li>Griefing a zabijení hráčů pro získaní jejich věcí je povolen</li>
-                            <li>Hráč nemá práva na žádnou plochu kolem jeho domu</li>
+                            <li>Griefing a zabijení hráčů pro získaní jejich věcí je povolen.</li>
+                            <li>Hráč nemá práva na žádnou plochu kolem jeho domu.</li>
                         </ol>
-                        <li>Je zakázáno farmit srdíčka na svých alt účetech nebo ostatních hráčích</li>
+                        <li>Je zakázáno farmit srdíčka na svých alt účetech nebo ostatních hráčích.</li>
                         <ol>
                             <li>Jako farmení lze považovat.</li>
                             <ol>
-                                <li>Zabijení hráče ihned po jeho respawnu</li>
-                                <li>Zabijení hráče, který je AFK</li>
+                                <li>Nabízení hráčů odměnu za to že se nechají zabít.</li>
+                                <li>Zabijení hráče ihned po jeho respawnu.</li>
+                                <li>Zabijení hráče, který je AFK.</li>
                             </ol>
                         </ol>
                     </ol>
