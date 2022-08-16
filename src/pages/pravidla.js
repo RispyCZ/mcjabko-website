@@ -42,10 +42,6 @@ const Rules = () => {
                         <ol>
                             <li>Použití jakéhokoliv dupe glitche, hack clienta, zvýhodňujícího texture packu, a další modifikací (může být trestáno banen)</li>
                             <li>Pokud si nejste jisti kontaktujte nás na discordu</li>
-                            
-                        </ol>
-                        <ol>
-                            <li>Pokud člen Admin teamu nerozhodne jinak, přijatelnými modifikacemi hry jsou OptiFine a minimapa.</li>
                         </ol>
                         <li>Je zakázáno v chatu užívat vulgarismů, nevhodných slov a výrazů či sexuálních narážek!</li>
                         <ol>
