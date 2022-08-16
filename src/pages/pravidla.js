@@ -18,12 +18,12 @@ const Rules = () => {
                     <p>Jelikož chceme na našem serveru udržovat férovou a příjemnou hru všem hráčům, je důležité dodržovat závazná pravidla!</p>
                     <h3>A. Obecná pravidla platící na všech světech MCJabko.cz, dále jen "server".</h3>
                     <ol>
-                        <li>Obecná pravidla platí na anarchy světě pouze v rozsahu 1. - 2.1</li>
                         <li>Od všech uživatelů je očekáván respekt k infrastruktuře serveru</li>
                         <ol>
                             <li>To znamená že je nepřípustné jakkoliv napadat, cílené zpomalovat, narušovat provoz, či jinak ovlivňovat chod infrastruktury serveru, DDOs útoky, neoprávněnými přístupy, stavbou cíleně nákladných staveb na výkon serveru přímo vně serveru, nebo jinými fyzickými nebo logickými způsoby.</li>
                             <li>Pokud člen Admin teamu usoudí že stavba hráče narušuje chod serveru, je oprávněn ji zničit.</li>
                         </ol>
+                        <li>Je zakázáno, jakkoliv urážet, narážet, zmiňovat, stavět či jinými způsoby vyjadřovat, propagovat a podporovat, rasismus, genocidu, válečné zločiny a jakékoliv protiprávní jednání v rámci zákonů České a Slovenské republiky!</li>
                         <li>Každý hráč ručí za zabezpečení svého uživatelského účtu!</li>
                         <ol>
                             <li>Od chvíle, kdy se uživatelský účet zaregistruje na našem serveru zodpovídá jeho uživatel za dostatečně silné heslo, za jakékoliv akce provedené prostřednictvím tohoto účtu.</li>
@@ -38,10 +38,13 @@ const Rules = () => {
                             <li>Admin team má právo, jakkoliv potrestat či omezit jakéhokoliv uživatele i v případě neporušení specifického pravidla, pokud jedná v zájmu zachování bezpečnosti, férovosti či klidného pobytu ostatních uživatelů na serveru.</li>
                             <li>Pokud hráč usoudí, že člen Admin teamu jedná v rozporu s pravidly a je zjevné že není ani oprávněn jednat dle pravidla je oprávněn jej nahlásit vyšší funkci, nebo pomocí ticketu, kdy bude s daným členem Admin teamu zahájeno šetření a dokazování skutečností, pokud se Admin team jako celek shodne na tom že daný člen Admin teamu jednal v rozporu s pravidly, bude náležitě potrestán či zbaven funkce.</li>
                         </ol>
-                        <li>Je zakázáno používat modifikace hry, jež hráči poskytují značnou výhodu vůči ostatním hráčům.</li>
+                        <li>Je zakázáno jakýmikoliv způsobem podvádět/získávat výhody nad ostatními hráči.</li>
+                        <ol>
+                            <li>Použití jakéhokoliv dupe glitche, hack clienta, zvýhodňujícího texture packu, a další modifikací (může být trestáno banen)</li>
+                            <li>Pokud si nejste jisti kontaktujte nás na discordu</li>
+                        </ol>
                         <ol>
                             <li>Pokud člen Admin teamu nerozhodne jinak, přijatelnými modifikacemi hry jsou OptiFine a minimapa.</li>
-                            <li>Je zakázáno, jakkoliv urážet, narážet, zmiňovat, stavět či jinými způsoby vyjadřovat, propagovat a podporovat, rasismus, genocidu, válečné zločiny a jakékoliv protiprávní jednání v rámci zákonů České a Slovenské republiky!</li>
                         </ol>
                         <li>Je zakázáno v chatu užívat vulgarismů, nevhodných slov a výrazů či sexuálních narážek!</li>
                         <ol>
@@ -82,7 +85,7 @@ const Rules = () => {
                         <li>Je zakázáno jakkoliv obcházet ban!</li>
                     </ol>
 
-                    <h3>C. Pravidla modrého světa.</h3>
+                    <h3>C. Pravidla modrého světa</h3>
                     <ol>
                         <li>Griefing mimo Raid, je zakázán. 1.2 Raid lze uskutečnit jen pokud, je alespoň jeden z majitelů stavby přítomen. Zároveň musí majitel souhlasit s možností raidů v rámci jejich RP.</li>
                         <li>PvP je obecně povoleno, je však zakázáno cíleně, nebo opakovaně zabíjet jednoho hráče, nebo skupinu, pouze z důvodu získání jeho věcí. 2.2 Pokud byl hráč zabit v rámci RP, nesmí se vracet do okolí své smrti po dobu 15 minut. 2.3 Vyjímkou je respawn v posteli, ve svém domě.</li>
