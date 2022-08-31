@@ -29,10 +29,7 @@ const Rules = () => {
                             <li>Od chvíle, kdy se uživatelský účet zaregistruje na našem serveru zodpovídá jeho uživatel za dostatečně silné heslo, za jakékoliv akce provedené prostřednictvím tohoto účtu.</li>
                             <li>Každý uživatel má právo vlastnit jen a pouze jeden uživatelský účet vázaný na jeho IP adresu, výjimkou je sdílená domácnost s členem rodiny či duplicitní IP adresa v rámci poskytovatele internetu, v případě připojení jiného účtu na stejné IP adrese na které byl uložen ban je Admin team v případech, kdy je pravděpodobné že se jedná o obcházení banu, oprávněn uložit permanentní IP ban a uživatel musí doložit důkaz o opaku.</li>
                         </ol>
-                    </ol>
-
-                    <h3>B. Pravidla zeleného a fialového světa</h3>
-                    <ol>
+                        <li>Je zakázáno jakkoliv obcházet ban!</li>
                         <li>Jakýkoliv pokyn člena Admin teamu (Majitel, Spolumajitel, Hlavní admin, Admin, Support či Zkušební support), musí být bezodkladně uposlechnut!</li>
                         <ol>
                             <li>Admin team má právo, jakkoliv potrestat či omezit jakéhokoliv uživatele i v případě neporušení specifického pravidla, pokud jedná v zájmu zachování bezpečnosti, férovosti či klidného pobytu ostatních uživatelů na serveru.</li>
@@ -49,16 +46,31 @@ const Rules = () => {
                         </ol>
                         <li>Je zakázáno jakkoli slovně napadat, urážet či jinak útočit na ostatní hráče a členy A-teamu!</li>
                         <li>Je zakázáno jakkoli žádat o věci či jiné výhody členy A-teamu ( tj. fly, creative, OP aj.)!</li>
-                        <li>Griefing, to znamená, ničení, stavba a jiné narušování staveb cizích hráčů bez povolení je přísně zakázán!</li>
-                        <li>Je zakázáno jakkoliv ničit hlavní ostrov v endu!</li>
                         <li>Absolutní zákaz stavby, pojmenovávání, zmiňování v chatu, nebo jakékoliv vyobrazování jakýmikoliv prostředky totalitní ideologie, jejich zastupitele, zastánce atp., zejména fašismu, nacismu a komunismu! Výjimkou je pouze informativní styl diskuze v chatu.</li>
                         <li>Spam v chatu nebo v soukromých zprávách je zakázán!</li>
                         <li>Je zakázáno využívat veškerých bugů (a podobné jako clay bug)! Hráč je povinen takový bug bezodkladně nahlásit členovi A-teamu!</li>
                         <li>Je zakázáno jakkoliv zpomalovat server pomocí nadměrného chovu zvířat v takovém stylu, kdy se jejich hitboxy protínají, stavbou tzv. „Lag Machines“, létajícími stroji, podpalování lesů, přehnaně velkými farmami atd.! Třídičky nesmí překročit 10 třídících členů na chunk!</li>
+                        <li>Server neručí za ztracené věci vlivem teleportace na jiného hráče, chybou hráče, lagem hry na straně clienta či výpadkem připojení daného hráče.</li>
+                        <ol>
+                            <li>Výjimkou je chyba na straně serveru či při ztrátě při teleportaci za cílem obchodu!</li>
+                        </ol>
+                        <li>Každý hráč má povinnost nahlásit hráče porušujícího pravidla!</li>
+                        <li>Nabádání jiných hráčů k porušování pravidel je zakázáno!</li>
+                        <li>Je zakázáno jakkoli propagovat, tvořit reklamu, nabádat a doporučovat jiné minecraft servery, discord servery, nebo jakékoliv jiné produkty prostřednictvím serveru, či discord serveru.</li>
+                        <li>Zároveň je zakázáno tak činit v soukromých zprávách rozesílaných členům serverů MCJabko, to znamnená discord, TS3, minecraft či jakékoliv jiné servery spadající pod MCJabko.cz</li>
+                        <li>Admin Team má právo hráči, který byl zabanován za zneužívání bugů hry, podvádění (jakýmikoliv způsobem) a griefing, vymazat inventář a zabavit veškerý majtek.</li>
+                        <ol>
+                            <li>Veškeré zabavené předměty jsou členové Admin Teamu povinni trvale zničit.</li>
+                            <li>Toto pravidlo lze uplatnit i po uplynutí trestu.</li>
+                        </ol>
+                    </ol>
+
+                    <h3>B. Pravidla zeleného a fialového světa</h3>
+                    <ol>
+                        <li>Griefing, to znamená, ničení, stavba a jiné narušování staveb cizích hráčů bez povolení je přísně zakázán!</li>
+                        <li>Je zakázáno jakkoliv ničit hlavní ostrov v endu!</li>
                         <li>Je zakázáno stavět jakékoliv farmy v endu!</li>
                         <li>Je zakázáno narušovat ráz krajiny nesmyslnými stavbami, tj. sloupy, plošinami, létajícími stromy a jakékoliv jiné narušování!</li>
-                        <li>Server neručí za ztracené věci vlivem teleportace na jiného hráče, chybou hráče, lagem hry na straně clienta či výpadkem připojení daného hráče.</li>
-                        <li>Výjimkou je chyba na straně serveru či při ztrátě při teleportaci za cílem obchodu!</li>
                         <li>Je zakázáno zabíjet hráče v zájmu získání jejich věcí. Toto neplatí pouze v PvP aréně!</li>
                         <li>Pokud dva hráči dospějí k dohodě, kdy si po vzájemném souboji v PvP aréně vrátí věci a jedna ze stran tuto dohodu poruší, jedná se o krádež a bude tak i trestána dle platných pravidel!</li>
                         <ol>
@@ -75,11 +87,6 @@ const Rules = () => {
                             <li>Pokud však jeden z hráčů strávil v dané zóně výrazně krátkou dobu a zároveň bude jedna strana odmítat dohodu, bude daný hráč vykázán bez nároku na náhradu škody tím způsobené!</li>
                         </ol>
                         <li>Hráč si nesmí bez povolení majitele objektu / pozemku nastavit lokaci „home“ na daném území!</li>
-                        <li>Každý hráč má povinnost nahlásit hráče porušujícího pravidla!</li>
-                        <li>Nabádání jiných hráčů k porušování pravidel je zakázáno!</li>
-                        <li>Je zakázáno jakkoli propagovat, tvořit reklamu, nabádat a doporučovat jiné minecraft servery, discord servery, nebo jakékoliv jiné produkty prostřednictvím serveru, či discord serveru.</li>
-                        <li>Zároveň je zakázáno tak činit v soukromých zprávách rozesílaných členům serverů MCJabko, to znamnená discord, TS3, minecraft či jakékoliv jiné servery spadající pod MCJabko.cz</li>
-                        <li>Je zakázáno jakkoliv obcházet ban!</li>
                     </ol>
 
                     <h3>C. Pravidla modrého světa</h3>
