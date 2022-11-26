@@ -1,5 +1,5 @@
-import React, {useState} from 'react'
-import * as styles from '../styles/copybtn.module.css'
+import React, { useState } from "react"
+import * as styles from "../styles/copybtn.module.css"
 export default function CopyBtn({ CopyText, children }) {
   const [isCopied, setisCopied] = useState(false)
   const copy = async () => {
@@ -7,7 +7,11 @@ export default function CopyBtn({ CopyText, children }) {
     setisCopied(true)
     setTimeout(() => {
       setisCopied(false)
-    },1000)
+    }, 1000)
   }
-  return <button onClick={copy} className={styles.btn}>{isCopied ? 'Zkopírováno!' : children}</button>
+  return (
+    <button onClick={copy} className={styles.btn}>
+      {isCopied ? "Zkopírováno!" : children}
+    </button>
+  )
 }
