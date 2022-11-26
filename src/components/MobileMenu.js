@@ -8,9 +8,9 @@ export default function MobileMenu({ items }) {
             {items.map((item) => {
                 const {name, url, icon} = item
                 if (url.startsWith('https://')) {
-                    return <a key={name} href={url} target="_blank" rel="noreferrer">{icon}</a>
+                    return <a key={name} href={url} className={styles.mobile_link} target="_blank" rel="noreferrer">{icon} {name}</a>
                 } else {
-                    return <Link key={name} to={url}>{icon}</Link>
+                    return <Link key={name} to={url} className={styles.mobile_link} >{icon} {name}</Link>
                 }
             })}
         </div>

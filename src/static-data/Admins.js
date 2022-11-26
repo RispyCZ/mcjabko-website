@@ -21,24 +21,14 @@ const admins = [
       Rank: "hladmin"
     },
     {
-      Name: "Modify",
-      Description: "Ahoj jmenuji se Modify a již nějaký ten pátek se starám o Vaše hraní na tomto serveru. Nemusíte se bát kontaktovat mou osobu jak na MC, tak na Discordu rád Vám pomohu s jakýmkoliv problémem. Na závěr bych jen řekl, že mám rád férové jednání a férové lidi.",
-      Rank: "support"
-    },
-    {
-      Name: "MonsterBak",
-      Description: "",
-      Rank: "support"
-    },
-    {
       Name: "mangovecc",
       Description: "",
-      Rank: "zksupport"
+      Rank: "support"
     },
     {
       Name: "detonator69",
       Description: "",
-      Rank: "zksupport"
+      Rank: "support"
     },
     {
       Name: "_Orinka_",

@@ -10,9 +10,7 @@ require("dotenv").config({
 
 module.exports = {
   /* Your site config here */
-  plugins: [
-    `gatsby-plugin-react-helmet`,
-  ],
+  plugins: [],
   siteMetadata: {
     title: 'MCJabko.cz',
     description: 'MCJabko je síť Semi-Vanilla a Vanilla serverů již od roku 2017.'

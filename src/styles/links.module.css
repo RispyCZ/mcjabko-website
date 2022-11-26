@@ -1,6 +1,8 @@
 .links {
-    display: inline-block;
-    text-align: right;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    align-content: center;
 }
 .links > a {
     margin-right: 1.5em;

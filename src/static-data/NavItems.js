@@ -1,38 +1,33 @@
 import React from 'react'
-import { FaGavel } from '@react-icons/all-files/fa/FaGavel'
-import { FaInfoCircle } from '@react-icons/all-files/fa/FaInfoCircle'
-import { FaHome } from '@react-icons/all-files/fa/FaHome'
-import { FaDonate } from '@react-icons/all-files/fa/FaDonate'
-import { FaQuestionCircle } from '@react-icons/all-files/fa/FaQuestionCircle'
-import {GoListOrdered} from '@react-icons/all-files/go/GoListOrdered'
+import { House, Scales, Info, Question, Money, IdentificationBadge } from 'phosphor-react'
 const items = [
     {
-        icon: <FaHome />,
+        icon: <House size={'1.5em'} style={{display: 'block', margin: 'auto'}} color="#f66151" weight="duotone" />,
         name: 'Domů',
         url: '/'
     },
     {
-        icon: <GoListOrdered />,
+        icon: <Scales size={'1.5em'} style={{display: 'block', margin: 'auto'}} color="#f66151" weight="duotone" />,
         name: 'Pravidla',
         url: '/pravidla'
     },
     {
-        icon: <FaInfoCircle/>,
+        icon: <Info size={'1.5em'} style={{display: 'block', margin: 'auto'}} color="#f66151" weight="duotone" />,
         name: 'O nás',
         url: '/o-nas'
     },
     {
-        icon: <FaQuestionCircle />,
+        icon: <Question size={'1.5em'} style={{display: 'block', margin: 'auto'}} color="#f66151" weight="duotone" />,
         name: 'FAQ',
         url: '/faq'
     },
     {
-        icon: <FaDonate />,
+        icon: <Money size={'1.5em'} style={{display: 'block', margin: 'auto'}} color="#f66151" weight="duotone" />,
         name: 'Sponzor',
         url: '/donate'
     },
     {
-        icon: <FaGavel/>,
+        icon: <IdentificationBadge size={'1.5em'}  style={{display: 'block', margin: 'auto'}} color="#f66151" weight="duotone" />,
         name: 'Banlist',
         url: 'https://banlist.mcjabko.cz'
     },

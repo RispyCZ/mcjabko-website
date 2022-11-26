@@ -1,14 +1,10 @@
 import React from "react"
 import Layout from "../components/Layout"
 import * as styles from '../styles/home.module.css'
-import { GiServerRack } from '@react-icons/all-files/gi/GiServerRack'
-import { GiRingedPlanet } from '@react-icons/all-files/gi/GiRingedPlanet'
-import { FaUserSecret } from '@react-icons/all-files/fa/FaUserSecret'
-import { IoMdGlobe } from '@react-icons/all-files/io/IoMdGlobe'
-import { GoGlobe } from '@react-icons/all-files/go/GoGlobe'
 import Seo from '../components/Seo'
 import CopyBtn from "../components/CopyBtn"
 import ListAdmins from "../components/ListAdmins"
+import { Planet, Cloud, UsersFour, Smiley } from 'phosphor-react'
 
 export default function Home() {
   return (
@@ -37,7 +33,7 @@ export default function Home() {
           </div>
           <div className={styles.cols}>
             <div className={styles.col}>
-              <GoGlobe className={styles.globe} style={{ color: '#32CD32' }} />
+              <Planet size={'8rem'} color="#32CD32" weight="duotone" />
               <h3>Zelený svět</h3>
               <p>Charakteristika světa</p>
               <ul className={styles.list}>
@@ -47,19 +43,8 @@ export default function Home() {
                 <li className={styles.list_item}>Neomezená mapa</li>
               </ul>
             </div>
-            {/*  <div className={styles.col}>
-              <GoGlobe className={styles.globe} style={{color: '#9c00e6'}} />
-              <h3>Fialový svět</h3>
-              <p>Charakteristika světa</p>
-              <ul className={styles.list}>
-                <li className={styles.list_item}>Semi-Vanilla</li>
-                <li className={styles.list_item}>Základní přikazy</li>
-                <li className={styles.list_item}>Každých 6 měsíců wipe</li>
-                <li className={styles.list_item}>Neomezená mapa</li>
-              </ul> 
-            </div> */}
             <div className={styles.col}>
-              <GoGlobe className={styles.globe} style={{ color: '#1E90FF' }} />
+              <Planet size={'8rem'} color="#1E90FF" weight="duotone" />
               <h3>Modrý svět</h3>
               <p>Charakteristika světa</p>
               <ul className={styles.list}>
@@ -70,7 +55,7 @@ export default function Home() {
               </ul>
             </div>
             <div className={styles.col}>
-              <GoGlobe className={styles.globe} style={{ color: '#A52A2A' }} />
+              <Planet size={'8rem'} color="#A52A2A" weight="duotone" />
               <h3>Červený svět</h3>
               <p>Charakteristika světa</p>
               <ul className={styles.list}>
@@ -91,17 +76,17 @@ export default function Home() {
         </div>
         <div className={styles.cols}>
           <div className={styles.col}>
-            <span className={styles.icon}><GiServerRack /></span>
+            <Cloud size={'4rem'} color="#f66151" weight="bold" />
             <h3>Zázemí</h3>
             <p>Všechny naše herní servey jsou provozováný na naších vlastních serverech v ČR</p>
           </div>
           <div className={styles.col}>
-            <span className={styles.icon}><FaUserSecret /></span>
+            <UsersFour size={'4rem'} color="#f66151" weight="bold" />
             <h3>Admin Team</h3>
             <p>Admini rádi pomohou s řešením tvých problém ať už na serveru nebo na discordu</p>
           </div>
           <div className={styles.col}>
-            <span className={styles.icon}><GiRingedPlanet /></span>
+            <Smiley size={'4rem'} color="#f66151" weight="bold" />
             <h3>Máš na výběr</h3>
             <p>Ačkoliv nabízíme jen servery zaměřené na Vanillu můžeš si vybrat.</p>
           </div>
