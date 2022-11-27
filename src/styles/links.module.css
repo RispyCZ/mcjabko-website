@@ -1,8 +1,6 @@
 .links {
     display: flex;
-    justify-content: end;
     align-items: center;
-    align-content: center;
 }
 .links > a {
     margin-right: 1.5em;
@@ -11,4 +9,11 @@
 }
 .links > a:hover {
     border-bottom: 2px #fff solid;
+}
+
+/* Responsive phone */
+@media only screen and (max-width: 900px) {
+    .links {
+        display: none;
+    }   
 }

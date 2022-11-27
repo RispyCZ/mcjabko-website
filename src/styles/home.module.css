@@ -156,25 +156,24 @@
 /* Responsive */
 @media only screen and (max-width: 1200px) {
   .discord_text h3 {
-    font-size: 1.2em;
-    margin: 1em 0.3em;
+    font-size: 1.2rem;
+    margin: 1em .3em;
   }
 
   .discord_box {
-    justify-content: center;
-    align-items: center;
-    grid-auto-flow: column;
+    display: flex;
+    flex-direction: column;
+  
   }
 
   .discord_logo {
-    width: 64px;
-    height: 64px;
-    display: block;
-    margin: auto;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 1rem;
   }
 
   .btn {
-    padding: 0.5em;
+    padding: .5em;
   }
 
   .cols {

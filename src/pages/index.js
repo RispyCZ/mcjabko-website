@@ -40,7 +40,7 @@ export default function Home() {
           </div>
           <div className={styles.cols}>
             <div className={styles.col}>
-              <Planet size={"8rem"} color="#32CD32" weight="duotone" />
+              <Planet size={"4rem"} color="#32CD32" weight="duotone" />
               <h3>Zelený svět</h3>
               <p>Charakteristika světa</p>
               <ul className={styles.list}>
@@ -51,7 +51,7 @@ export default function Home() {
               </ul>
             </div>
             <div className={styles.col}>
-              <Planet size={"8rem"} color="#1E90FF" weight="duotone" />
+              <Planet size={"4rem"} color="#1E90FF" weight="duotone" />
               <h3>Modrý svět</h3>
               <p>Charakteristika světa</p>
               <ul className={styles.list}>
@@ -62,7 +62,7 @@ export default function Home() {
               </ul>
             </div>
             <div className={styles.col}>
-              <Planet size={"8rem"} color="#A52A2A" weight="duotone" />
+              <Planet size={"4rem"} color="#A52A2A" weight="duotone" />
               <h3>Červený svět</h3>
               <p>Charakteristika světa</p>
               <ul className={styles.list}>
@@ -85,7 +85,7 @@ export default function Home() {
         </div>
         <div className={styles.cols}>
           <div className={styles.col}>
-            <Cloud size={"4rem"} color="#f66151" weight="bold" />
+            <Cloud size={"4rem"} color="#f66151" weight="duotone" />
             <h3>Zázemí</h3>
             <p>
               Všechny naše herní servey jsou provozováný na naších vlastních
@@ -93,7 +93,7 @@ export default function Home() {
             </p>
           </div>
           <div className={styles.col}>
-            <UsersFour size={"4rem"} color="#f66151" weight="bold" />
+            <UsersFour size={"4rem"} color="#f66151" weight="duotone" />
             <h3>Admin Team</h3>
             <p>
               Admini rádi pomohou s řešením tvých problém ať už na serveru nebo
@@ -101,7 +101,7 @@ export default function Home() {
             </p>
           </div>
           <div className={styles.col}>
-            <Smiley size={"4rem"} color="#f66151" weight="bold" />
+            <Smiley size={"4rem"} color="#f66151" weight="duotone" />
             <h3>Máš na výběr</h3>
             <p>
               Ačkoliv nabízíme jen servery zaměřené na Vanillu můžeš si vybrat.

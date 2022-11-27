@@ -1,23 +1,23 @@
 .mobile_menu {
-    display: none;
+  display: none;
 }
 
 /* Responsive phone */
 @media only screen and (max-width: 900px) {
-    .mobile_menu {
-        position: sticky;
-        position: -webkit-sticky;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #121212;
-        border-top: 3px #23272a solid;
-    }
-    .mobile_menu > a {
-        margin: 1.5em 1em;
-        font-size: 1rem;
-    }
+  .mobile_menu {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #121212;
+    border-top: 3px #23272a solid;
+  }
+  .mobile_menu > a {
+    margin: 1rem 0.3rem;
+    font-size: 1rem;
+  }
 }

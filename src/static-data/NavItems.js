@@ -12,7 +12,7 @@ const items = [
     icon: (
       <House
         size={"1.5em"}
-        style={{ display: "block", margin: "auto" }}
+        style={{ verticalAlign: "middle" }}
         color="#f66151"
         weight="duotone"
       />
@@ -24,7 +24,7 @@ const items = [
     icon: (
       <Scales
         size={"1.5em"}
-        style={{ display: "block", margin: "auto" }}
+        style={{ verticalAlign: "middle" }}
         color="#f66151"
         weight="duotone"
       />
@@ -36,7 +36,7 @@ const items = [
     icon: (
       <Info
         size={"1.5em"}
-        style={{ display: "block", margin: "auto" }}
+        style={{ verticalAlign: "middle" }}
         color="#f66151"
         weight="duotone"
       />
@@ -48,7 +48,7 @@ const items = [
     icon: (
       <Question
         size={"1.5em"}
-        style={{ display: "block", margin: "auto" }}
+        style={{ verticalAlign: "middle" }}
         color="#f66151"
         weight="duotone"
       />
@@ -60,7 +60,7 @@ const items = [
     icon: (
       <Money
         size={"1.5em"}
-        style={{ display: "block", margin: "auto" }}
+        style={{ verticalAlign: "middle" }}
         color="#f66151"
         weight="duotone"
       />
@@ -72,7 +72,7 @@ const items = [
     icon: (
       <IdentificationBadge
         size={"1.5em"}
-        style={{ display: "block", margin: "auto" }}
+        style={{ verticalAlign: "middle" }}
         color="#f66151"
         weight="duotone"
       />
