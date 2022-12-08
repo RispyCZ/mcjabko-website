@@ -4,7 +4,7 @@ import {
   Scales,
   Info,
   Question,
-  Money,
+  Lightbulb,
   IdentificationBadge,
 } from "phosphor-react"
 const items = [
@@ -58,15 +58,15 @@ const items = [
   },
   {
     icon: (
-      <Money
+      <Lightbulb
         size={"1.5em"}
         style={{ verticalAlign: "middle" }}
         color="#f66151"
         weight="duotone"
       />
     ),
-    name: "Sponzor",
-    url: "/donate",
+    name: "Wiki",
+    url: "https://wiki.mcjabko.cz",
   },
   {
     icon: (
