@@ -6,15 +6,13 @@
     padding: .3em;
 }
 
-.admin,
-.hladmin {
+.vedeni {
     background-color: #FF5555;
     color: #fff;
     border-radius: 20px;
     padding: .3em;
 }
 
-.technik,
 .builder,
 .hlbuilder {
     background-color: #0000AA;
@@ -23,6 +21,7 @@
     padding: .3em;
 }
 
+.hlsupport,
 .support,
 .zksupport {
     background-color: #00AA00;
