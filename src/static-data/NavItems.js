@@ -3,6 +3,7 @@ import {
   House,
   Scales,
   Info,
+  Money,
   Question,
   Lightbulb,
   IdentificationBadge,
@@ -55,6 +56,18 @@ const items = [
     ),
     name: "FAQ",
     url: "/faq",
+  },
+  {
+    icon: (
+      <Money
+        size={"1.5em"}
+        style={{ verticalAlign: "middle" }}
+        color="#f66151"
+        weight="duotone"
+      />
+    ),
+    name: "Donate",
+    url: "/donate"
   },
   {
     icon: (
